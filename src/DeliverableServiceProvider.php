@@ -16,7 +16,7 @@ class DeliverableServiceProvider extends ServiceProvider
 
     public function boot() {
         $this->publishes([
-            __DIR__.'/../migrations/2015_07_20_122949_create_deliverable_table.php' => database_path('migrations/2015_07_20_122949_create_deliverable_table.php'),
+            __DIR__.'/../migrations/2015_07_20_122949_create_deliveries_table.php' => database_path('migrations/2015_07_20_122949_create_deliveries_table.php'),
         ]);
     }
 
