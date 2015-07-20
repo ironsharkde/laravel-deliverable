@@ -8,6 +8,7 @@
 
 namespace IronShark\Deliverable;
 
+use Illuminate\Support\ServiceProvider;
 
 class DeliverableServiceProvider extends ServiceProvider
 {
