@@ -12,14 +12,15 @@ class CreateDeliveriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('delivery', function (Blueprint $table) {
+        Schema::create('deliveries', function (Blueprint $table) {
             $table->increments('id');
             $table->unsignedInteger('deliverable_id');
             $table->string('deliverable_type', 255);
-            $table->unsignedInteger('user_id', 36)->index();
+            $table->unsignedInteger('user_id')->index();
             $table->unsignedTinyInteger('priority')->index();
             $table->timestamp('created_at')->nullable();
             $table->timestamp('delivered_at')->nullable();
+            $table->unique(['deliverable_id', 'deliverable_type', 'user_id'], 'deliverable_delivery_unique');
         });
     }
 
@@ -30,6 +31,6 @@ class CreateDeliveriesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('deliverable');
+        Schema::drop('deliveries');
     }
 }
