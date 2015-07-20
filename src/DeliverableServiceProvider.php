@@ -9,7 +9,7 @@
 namespace IronShark\Deliverable;
 
 
-class Deliverable extends ServiceProvider
+class DeliverableServiceProvider extends ServiceProvider
 {
     protected $defer = true;
 
