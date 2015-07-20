@@ -9,7 +9,7 @@
 namespace IronShark\Deliverable;
 
 
-class DeliverableTrait
+trait DeliverableTrait
 {
     /**
      * Collection of deliveries
