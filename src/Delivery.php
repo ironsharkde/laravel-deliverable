@@ -12,7 +12,7 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class Delivery extends Eloquent {
 
-	protected $table = 'deliverable';
+	protected $table = 'deliveries';
 	public $timestamps = false;
 	protected $fillable = [
 		'deliverable_id',
