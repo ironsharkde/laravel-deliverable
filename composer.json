@@ -20,6 +20,5 @@
         "psr-4": {
             "IronShark\\Deliverable\\": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
