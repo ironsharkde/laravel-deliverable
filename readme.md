@@ -5,21 +5,8 @@ Can be used for reading lists or shipments.
 
 ## Composer Install
 
-```json
-"repositories": [
-	  {
-		"type": "vcs",
-		"url": "ssh://git@git.isdev.de:9022/ironshark/laravel-deliverable.git"
-	  }
-	],
-```
-
-```json
-"require": {
-	  "laravel/framework": "5.1.*",
-      ...
-	  "ironshark/laravel-deliverable": "dev-master"
-	},
+```sh
+composer require ironshark/laravel-deliverable
 ```
 
 ```bash
