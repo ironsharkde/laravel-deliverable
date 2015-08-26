@@ -1,4 +1,9 @@
-# Laravel Deliverable Plugin
+Laravel Deliverable Plugin
+==========================
+
+[![License](https://img.shields.io/github/license/ironsharkde/laravel-deliverable.svg)](https://packagist.org/packages/ironshark/laravel-deliverable)
+[![Downloads](https://img.shields.io/packagist/dt/ironshark/laravel-deliverable.svg)](https://packagist.org/packages/ironshark/laravel-deliverable)
+[![Version-stable](https://img.shields.io/packagist/v/ironshark/laravel-deliverable.svg)](https://packagist.org/packages/ironshark/laravel-deliverable)
 
 Trait for Laravel Eloquent models to allow easy implementation of a "deliverable" feature.
 Can be used for reading lists or shipments.
