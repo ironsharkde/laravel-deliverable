@@ -34,7 +34,7 @@ $file = File::create(['name' => 'filename']);
 $admin = \App\User::where('name', 'admin')->first();
     
 $file->deliver(\App\User::all()); // deliver file to all users
-$file->deliver(1, 5); // deliver files to user with id `1`, priority = ``5
+$file->deliver(1, 5); // deliver files to user with id `1`, priority = `5`
 
 $file->setDelivered(); // mark file as deliverd to logged in user
 $file->setDelivered(true, $admin); // mark file as deliverd to admin user
